@@ -3,6 +3,6 @@ function initHome () {
 	if(currentUser.getUsername){
 		var currentLocation = location.href;
 		var currentLocationURLOnly = currentLocation.substring(0, currentLocation.lastIndexOf("/") + 1)
-		location.href = currentLocationURLOnly + "user/?id=" + currentUser.getUsername();
+		location.href = currentLocationURLOnly + "user/index.html?id=" + currentUser.getUsername();
 	}
 }
