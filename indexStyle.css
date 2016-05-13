@@ -1,0 +1,87 @@
+body{
+	font-family: Helvetica;
+	background-color: #eedfdf;
+	min-width: 1024px;
+}
+#main{
+	text-align: center;
+	background-color: #eedfdf;
+	width: 100%;
+	border-right: 3 solid #eedfdf;
+	border-left: ￼3 solid #eedfdf;
+}
+/* #descriptionTable{
+	margin-right: 1000px;
+	margin: 1000px;
+} */
+#mainTable{
+	/*width: 100%;*/
+	margin: auto;
+}
+#descriptionSection{
+	display: inline;
+	text-align: left;
+}
+#taglineTitle{
+	font-size: 30px;
+	margin-top: 20px;
+	padding: 0;
+}
+#bulletPoints{
+	font-size: 20;
+}
+#signUpSection{
+	display: inline;
+}
+#signUpTable{
+	float: right;
+	margin-right: 0;
+	margin-bottom: 30px;
+}
+#signUpTitle{
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 40;
+	margin: 10;
+	margin-bottom: 4px;
+}
+#itsFreeTitle{
+	font-size: 18px;
+	margin: 5;
+	margin-left: 10;
+	margin-top: 0px;
+	font-family: Helvetica;
+	font-weight: normal;
+}
+.signUpTextField{
+	font-family: inherit;
+	border-radius: 0;
+	border: 1px solid black;
+	font-size: 12;
+	width: 400px;
+	height: 40px;
+	margin: 5px;
+	font-size: 15;
+	-webkit-appearance: none;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.signUpPasswordField{
+	width: 192px; //width = ( textfield width / 2 ) - textfield margin - 3
+	margin-bottom: 200px;
+}
+#signUpButton{
+	background-color: red; //#C38B8B
+	margin: 10px;
+	margin-left: 20px;
+	margin-top: 5px;
+	font-family: inherit;
+	font-size: 15;
+	height: 40px;
+	width: 130px;
+	border: 1px solid black;
+	-webkit-appearance: none;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	
+}

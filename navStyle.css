@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'FBFont';
+  src:  url('FACEBOLF.OTF')
+}
+html,body{
+	//font family futura in indexStyle.css
+	width: 100%;
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: Helvetica;
+}
+#topNav{
+	//position: fixed;
+	background-color: #842A2D;
+	background: linear-gradient(#9b3134,  #842A2D);
+	width: 100%;
+	margin: 0px;
+	padding: 0;
+	border-bottom: 1px solid black;
+	height: 82px;
+	font-family: inherit;
+}
+input{
+	-webkit-appearance: none;
+}
+#noLikeButtonTitle{
+	font-family: 'FBFont';
+	font-size: 45px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 30px;
+	color: white;
+	font-weight: normal;
+}
+#logInForm{
+	display: inline;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+#logInTable{
+	font-family: inherit;
+	margin-right: 16px;
+	margin-top: 10px;
+}
+.logInTextFieldDescription{
+	color: white;
+	font-size: 12px;
+}
+.logInTextField{
+	font-family: inherit;
+	border-radius: 0;
+	border: 1px solid black;
+	width: 148px;
+	height: 24px;
+}
+#logInUsername, #logInPassword{
+	margin-right: 12px
+}
+#logInButton{
+	background-color: #a95b5b; //#C38B8B
+	margin: default;
+	font-family: inherit;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	width: 50px;
+	height: 22px;
+	text-align: center;
+	padding: 0;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0px;
+	border: 1px solid;
+	border-color: #792f2f #7f2929 #701a1a;
+	box-shadow: 0px 1px 2px black;
+}
+#userLoggedInTable{
+	float: right;
+	font-family: inherit;
+	margin-right: 16px;
+	margin-top: 28px;
+	display: none;
+}
+#userLoggedInH3{
+	display: inline; 
+	font-family: inherit;
+	font-size: 24px;
+	color: white;
+	
+}
+#logOutButton{
+	background-color: #a95b5b; //#C38B8B
+	margin: default;
+	font-family: inherit;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	width: 50px;
+	height: 22px;
+	text-align: center;
+	padding: 0;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0px;
+	border: 1px solid;
+	border-color: #792f2f #7f2929 #701a1a;
+	box-shadow: 0px 1px 2px black;
+	cursor: pointer;
+}

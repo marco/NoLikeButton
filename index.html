@@ -1,0 +1,109 @@
+<html>
+	<head>
+		<title>Welcome to NoLikeButton</title>
+		
+		<link rel="stylesheet" type="text/css" href="indexStyle.css" />
+		<link rel="stylesheet" type="text/css" href="navStyle.css" />
+		<script src="http://www.parsecdn.com/js/parse-1.6.14.min.js"></script>
+		<script src="initParse.js" charset="utf-8"></script>
+		<script src="signUpHandler.js" charset="utf-8"></script>
+		<script src="logInHandler.js" charset="utf-8"></script>
+		<script src="initHome.js" charset="utf-8"></script>
+		<meta content="width=device-width" name="viewport" />
+	</head>
+	<body id="body" onload="initParse();initHome();">
+		<nav id="topNav">
+			<h1 id="noLikeButtonTitle">
+				nolikebutton
+			</h1>
+			<form id="logInForm" name="logInForm" action="javascript:logInFormActivated()" method="POST">
+				<table id="logInTable">
+					<tr>
+						<td class="logInTextFieldDescription">
+							Username
+						</td>
+						<td class="logInTextFieldDescription">
+							Password
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" name="username" id="logInUsername" class="logInTextField" required/>
+						</td>
+						<td>
+							<input type="password" name="password" id="logInPassword" class="logInTextField" required/>
+						</td>
+						<td>
+							<input type="submit" value="Log In" id="logInButton"/>
+						</td>
+					</tr>
+				</table>	
+			</form>
+		</nav>
+		<div id="main">
+			 <table id="mainTable" cellspacing="20px">
+				<tr>
+					<td id="descriptionTable">
+						<span id="mainDescription">
+							<h5 id="taglineTitle">
+								Get out your anger 
+								<br />
+								with NoLikeButton.
+							</h5>
+							<h6 id="bulletPoints">
+								Dislike posts that aren't good enough
+								<br />
+								<br />
+								Dislike comments that you don't like
+								<br />
+								<br />
+								Dislike everything
+							</h6>
+						</span>
+					</td>
+					<td style="padding-left: 120px;">
+						<table id="signUpTable">
+							<form name="signUpForm" action="javascript:signUpFormActivated()" method="POST">
+								<tr>
+									<td>
+										<h3 id="signUpTitle">
+											Sign Up
+										</h3>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<h5 id="itsFreeTitle">
+											It's free, and will be for a while.
+										</h5>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<input type="text" name="username" placeholder="Username" id="signUpUsername" class="signUpTextField" required/>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<input type="email" name="email" placeholder="Email Adress" id="signUpEmail" class="signUpTextField" required/>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<input type="password" name="password" placeholder="Password" id="signUpPassword" class="signUpTextField signUpPasswordField" required />
+										<input type="password" name="confirmPassword" placeholder="Confirm Password" id="signUpConfirmPassword" class="signUpTextField signUpPasswordField" required />
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<input type="submit" value="Sign Up!" id="signUpButton"/>
+									</td>
+								</tr>
+							</form>
+						</table>
+					</td>
+				</tr>
+			</table> 
+		</div>			
+	</body>
+</html>
