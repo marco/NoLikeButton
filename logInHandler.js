@@ -21,7 +21,7 @@ function logInFormActivated() {
    				location.href = currentLocationURLOnly + "?id=" + document.getElementById("logInUsername").value;
    			}
    			else{
-   	    		location.href = currentLocationURLOnly + "/user/?id=" + document.getElementById("logInUsername").value;
+   	    		location.href = currentLocationURLOnly + "user/?id=" + document.getElementById("logInUsername").value;
    	    	}
 		},
 		error: function(user, error) {
